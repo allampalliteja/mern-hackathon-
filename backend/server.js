@@ -5,6 +5,7 @@ import dotenv from "dotenv";
 import helmet from "helmet";
 import fs from "fs";
 import path from "path";
+import morgan from "morgan";
 import { fileURLToPath } from "url";
  // ✅ Loggingimport dealRoutes from "./routes/dealRoutes.js";
 import userRoutes from "./routes/userRoutes.js";
