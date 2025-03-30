@@ -8,6 +8,7 @@ import path from "path";
 import morgan from "morgan";
 import { fileURLToPath } from "url";
  // ✅ Loggingimport dealRoutes from "./routes/dealRoutes.js";
+import dealRoutes from "./routes/dealRoutes.js";
 import userRoutes from "./routes/userRoutes.js";
 import { errorHandler } from "./middleware/errorMiddleware.js";
 
